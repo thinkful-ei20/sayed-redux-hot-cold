@@ -8,3 +8,8 @@ export const makeGuess = guess => ({
   type: MAKE_GUESS,
   guess
 });
+
+export const GENERATE_AURAL_UPDATE = 'GENERATE_AURAL_UPDATE';
+export const generateAuralUpdate = () => ({
+  type: GENERATE_AURAL_UPDATE
+})
